@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/maps/world.js"></script>
+
+</head>
+<body >
+    <div id="58dbeec2d45d445399c608239d8c08f1" class="chart-container" style="width:900px; height:500px; "></div>
+    <script>
+        var chart_58dbeec2d45d445399c608239d8c08f1 = echarts.init(
+            document.getElementById('58dbeec2d45d445399c608239d8c08f1'), 'white', {renderer: 'canvas'});
+        var option_58dbeec2d45d445399c608239d8c08f1 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "color": [
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
+    ],
+    "series": [
+        {
+            "type": "scatter",
+            "coordinateSystem": "geo",
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "Warsaw",
+                    "value": [
+                        21.0,
+                        52.14,
+                        0
+                    ]
+                }
+            ],
+            "label": {
+                "show": false,
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "effectScatter",
+            "coordinateSystem": "geo",
+            "showEffectOn": "render",
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            },
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "Brest-Litovsk",
+                    "value": [
+                        21.39,
+                        51.04,
+                        1
+                    ]
+                },
+                {
+                    "name": "Minsk",
+                    "value": [
+                        27.5,
+                        53.88,
+                        7
+                    ]
+                },
+                {
+                    "name": "Leningrad",
+                    "value": [
+                        30.51,
+                        59.53,
+                        76
+                    ]
+                },
+                {
+                    "name": "Smolensk",
+                    "value": [
+                        32.2,
+                        54.46,
+                        19
+                    ]
+                },
+                {
+                    "name": "Moscow",
+                    "value": [
+                        37.35,
+                        55.45,
+                        98
+                    ]
+                },
+                {
+                    "name": "Helsinki",
+                    "value": [
+                        25.48,
+                        60.1,
+                        0
+                    ]
+                },
+                {
+                    "name": "Kiev",
+                    "value": [
+                        30.52,
+                        50.45,
+                        15
+                    ]
+                },
+                {
+                    "name": "lvov",
+                    "value": [
+                        24.02,
+                        49.83,
+                        3
+                    ]
+                },
+                {
+                    "name": "Kharkov",
+                    "value": [
+                        36.25,
+                        50,
+                        20
+                    ]
+                },
+                {
+                    "name": "Essen",
+                    "value": [
+                        7.01,
+                        51.45,
+                        0
+                    ]
+                },
+                {
+                    "name": "Rotterdam",
+                    "value": [
+                        4.29,
+                        51.55,
+                        5
+                    ]
+                },
+                {
+                    "name": "Luxembourg",
+                    "value": [
+                        6.09,
+                        49.36,
+                        0
+                    ]
+                },
+                {
+                    "name": "Paris",
+                    "value": [
+                        2.23,
+                        48.52,
+                        35
+                    ]
+                },
+                {
+                    "name": "Calais",
+                    "value": [
+                        1.51,
+                        50.56,
+                        15
+                    ]
+                },
+                {
+                    "name": "Ardennes",
+                    "value": [
+                        5.4,
+                        50.15,
+                        5
+                    ]
+                }
+            ],
+            "label": {
+                "show": false,
+                "margin": 8
+            }
+        },
+        {
+            "type": "lines",
+            "name": "\u653b\u52bf\u65b9\u5411",
+            "coordinateSystem": "geo",
+            "zlevel": 4,
+            "progressive": 400,
+            "progressiveThreshold": 3000,
+            "effect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4,
+                "color": "yellow",
+                "symbol": "arrow",
+                "symbolSize": 5
+            },
+            "symbol": [
+                "none",
+                "arrow"
+            ],
+            "polyline": false,
+            "large": false,
+            "largeThreshold": 2000,
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "Warsaw->Brest-Litovsk",
+                    "coords": [
+                        [
+                            21.0,
+                            52.14
+                        ],
+                        [
+                            21.39,
+                            51.04
+                        ]
+                    ]
+                },
+                {
+                    "name": "Minsk->Leningrad",
+                    "coords": [
+                        [
+                            27.5,
+                            53.88
+                        ],
+                        [
+                            30.51,
+                            59.53
+                        ]
+                    ]
+                },
+                {
+                    "name": "Brest-Litovsk->Minsk",
+                    "coords": [
+                        [
+                            21.39,
+                            51.04
+                        ],
+                        [
+                            27.5,
+                            53.88
+                        ]
+                    ]
+                },
+                {
+                    "name": "Minsk->Smolensk",
+                    "coords": [
+                        [
+                            27.5,
+                            53.88
+                        ],
+                        [
+                            32.2,
+                            54.46
+                        ]
+                    ]
+                },
+                {
+                    "name": "Smolensk->Moscow",
+                    "coords": [
+                        [
+                            32.2,
+                            54.46
+                        ],
+                        [
+                            37.35,
+                            55.45
+                        ]
+                    ]
+                },
+                {
+                    "name": "Helsinki->Leningrad",
+                    "coords": [
+                        [
+                            25.48,
+                            60.1
+                        ],
+                        [
+                            30.51,
+                            59.53
+                        ]
+                    ]
+                },
+                {
+                    "name": "Brest-Litovsk->lvov",
+                    "coords": [
+                        [
+                            21.39,
+                            51.04
+                        ],
+                        [
+                            24.02,
+                            49.83
+                        ]
+                    ]
+                },
+                {
+                    "name": "lvov->Kiev",
+                    "coords": [
+                        [
+                            24.02,
+                            49.83
+                        ],
+                        [
+                            30.52,
+                            50.45
+                        ]
+                    ]
+                },
+                {
+                    "name": "Kiev->Kharkov",
+                    "coords": [
+                        [
+                            30.52,
+                            50.45
+                        ],
+                        [
+                            36.25,
+                            50
+                        ]
+                    ]
+                },
+                {
+                    "name": "Essen->Rotterdam",
+                    "coords": [
+                        [
+                            7.01,
+                            51.45
+                        ],
+                        [
+                            4.29,
+                            51.55
+                        ]
+                    ]
+                },
+                {
+                    "name": "Luxembourg->Calais",
+                    "coords": [
+                        [
+                            6.09,
+                            49.36
+                        ],
+                        [
+                            1.51,
+                            50.56
+                        ]
+                    ]
+                },
+                {
+                    "name": "Luxembourg->Ardennes",
+                    "coords": [
+                        [
+                            6.09,
+                            49.36
+                        ],
+                        [
+                            5.4,
+                            50.15
+                        ]
+                    ]
+                },
+                {
+                    "name": "Ardennes->Paris",
+                    "coords": [
+                        [
+                            5.4,
+                            50.15
+                        ],
+                        [
+                            2.23,
+                            48.52
+                        ]
+                    ]
+                }
+            ],
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0.2,
+                "type": "solid"
+            },
+            "label": {
+                "show": false,
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "",
+                "",
+                "\u653b\u52bf\u65b9\u5411"
+            ],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderWidth": 1,
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "formatter": function (params) {        return params.name + ' : ' + params.value[2];    },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "title": [
+        {
+            "show": true,
+            "text": "\u66fc\u65bd\u5766\u56e0\u8ba1\u5212\u4e0e\u5df4\u5df4\u7f57\u8428\u884c\u52a8",
+            "target": "blank",
+            "subtarget": "blank",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "continuous",
+        "min": 0,
+        "max": 100,
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "hoverLink": true,
+        "orient": "vertical",
+        "padding": 5,
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 140,
+        "borderWidth": 0
+    },
+    "geo": {
+        "map": "world",
+        "roam": true,
+        "aspectScale": 0.75,
+        "nameProperty": "name",
+        "selectedMode": false,
+        "emphasis": {}
+    }
+};
+        chart_58dbeec2d45d445399c608239d8c08f1.setOption(option_58dbeec2d45d445399c608239d8c08f1);
+    </script>
+</body>
+</html>
